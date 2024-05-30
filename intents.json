@@ -1,0 +1,131 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["My pleasure", "You're Welcome"],
+        "context": [""]
+      },
+      {
+        "tag": "query",
+        "patterns": ["What is Simplilearn?"],
+        "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform"],
+        "context": [""]
+      },
+      {
+        "tag": "program_offerings",
+        "patterns": ["What programs do you offer?", "Tell me about your programs", "Do you have any graduate programs?", "What undergraduate programs are available?", "Can you list your programs?"],
+        "responses": ["We offer a variety of undergraduate and graduate programs across multiple disciplines. You can find a full list of our programs on our website."],
+        "context": ["program_info"]
+      },
+      {
+        "tag": "office_hours",
+        "patterns": ["What are your office hours?", "When is the admissions office open?", "Office hours?", "What are the working hours of the admissions office?"],
+        "responses": ["Our admission office is open from Monday to Friday, 9 AM to 5 PM."],
+        "context": ["office_hours"]
+      },
+      {
+        "tag": "office_location",
+        "patterns": ["Where is the admission office located?", "How can I find the admissions office?", "Where can I find the admissions office?", "What is the location of the admissions office?"],
+        "responses": ["The admission office is located in the main administrative building, Room 101. Visit our campus map for directions."],
+        "context": ["office_location"]
+      },
+      {
+        "tag": "application_process",
+        "patterns": ["How do I apply?", "What is the application procedure?", "How can I submit my application?", "What is the process to apply?"],
+        "responses": ["You can apply online through our official website. Visit the 'Apply Now' section, create an account, and follow the instructions to complete your application."],
+        "context": ["application_process"]
+      },
+      {
+        "tag": "application_documents",
+        "patterns": ["What documents are required for the application?", "What do I need to submit with my application?", "Which documents are needed for application?", "What paperwork is required for applying?"],
+        "responses": ["You will need to submit your academic transcripts, letters of recommendation, a personal statement, and any other specific documents required by the program you are applying to."],
+        "context": ["application_documents"]
+      },
+      {
+        "tag": "application_deadline",
+        "patterns": ["What is the application deadline?", "When is the deadline to apply?", "Application deadline?", "By when should I submit my application?"],
+        "responses": ["The application deadline varies by program. Please check our website for the specific deadlines."],
+        "context": ["application_deadline"]
+      },
+      {
+        "tag": "admission_requirements",
+        "patterns": ["What are the admission requirements?", "What do I need to get admitted?", "Admission requirements?", "What are the criteria for admission?"],
+        "responses": ["Admission requirements vary by program, but generally include a minimum GPA, standardized test scores (such as SAT, ACT, GRE, or GMAT), letters of recommendation, and a personal statement."],
+        "context": ["admission_requirements"]
+      },
+      {
+        "tag": "standardized_test_scores",
+        "patterns": ["Do you require standardized test scores?", "Are test scores necessary for admission?", "Which standardized tests are needed?", "Do I need to submit test scores?"],
+        "responses": ["Some programs require standardized test scores. Please check the specific requirements for the program you are interested in."],
+        "context": ["standardized_test_scores"]
+      },
+      {
+        "tag": "minimum_gpa",
+        "patterns": ["What is the minimum GPA requirement?", "How high does my GPA need to be?", "What GPA do I need to apply?", "Minimum GPA for admission?"],
+        "responses": ["The minimum GPA requirement varies by program. Generally, a minimum GPA of 3.0 is required."],
+        "context": ["minimum_gpa"]
+      },
+      {
+        "tag": "financial_aid",
+        "patterns": ["What types of financial aid are available?", "Tell me about financial aid options", "What financial support can I get?", "Available financial aid?"],
+        "responses": ["We offer various types of financial aid, including scholarships, grants, work-study programs, and student loans. You can find more information on our financial aid webpage."],
+        "context": ["financial_aid"]
+      },
+      {
+        "tag": "apply_financial_aid",
+        "patterns": ["How do I apply for financial aid?", "What is the process to get financial aid?", "How can I get financial aid?", "Application for financial aid?"],
+        "responses": ["To apply for financial aid, you need to fill out the FAFSA form and submit it by the deadline. Additionally, you may need to submit any other required documents specified by our financial aid office."],
+        "context": ["apply_financial_aid"]
+      },
+      {
+        "tag": "financial_aid_deadline",
+        "patterns": ["What is the deadline for financial aid applications?", "When should I apply for financial aid?", "Financial aid application deadline?", "By when do I need to apply for financial aid?"],
+        "responses": ["The deadline for financial aid applications is typically March 1st. However, please check our financial aid webpage for the most up-to-date information."],
+        "context": ["financial_aid_deadline"]
+      },
+      {
+        "tag": "housing_options",
+        "patterns": ["What housing options are available?", "Can you tell me about student housing?", "What are the living arrangements?", "Housing options for students?"],
+        "responses": ["We offer several housing options including on-campus dormitories, apartments, and off-campus housing. You can find more details on our housing webpage."],
+        "context": ["housing_options"]
+      },
+      {
+        "tag": "student_organizations",
+        "patterns": ["Are there any student organizations?", "What student clubs are there?", "Can I join student groups?", "Student organizations and clubs?"],
+        "responses": ["Yes, we have a wide range of student organizations and clubs that you can join. Visit our student life webpage for more information."],
+        "context": ["student_organizations"]
+      },
+      {
+        "tag": "contact_admissions",
+        "patterns": ["How can I contact the admissions office?", "What is the contact number for admissions?", "How do I reach admissions?", "Admissions office contact details?"],
+        "responses": ["You can contact the admissions office by phone at (123) 456-7890 or by email at admissions@universitywebsite.edu."],
+        "context": ["contact_admissions"]
+      },
+      {
+        "tag": "office_location",
+        "patterns": ["Where can I find the admissions office?", "Where is the admissions office located?", "How do I get to the admissions office?", "Location of the admissions office?"],
+        "responses": ["The admissions office is in Room 101 of the main administrative building. For directions, please check our campus map."],
+        "context": ["office_location"]
+      },
+      {
+        "tag": "affirmation",
+        "patterns": ["Yes", "Absolutely", "Sure", "Of course", "Definitely", "Certainly"],
+        "responses": ["Great! How can I assist you further?", "Absolutely! What else would you like to know?", "Sure! What do you need help with?"],
+        "context": [""]
+      }
+    ]
+  }
+  
